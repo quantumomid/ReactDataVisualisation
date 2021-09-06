@@ -1,0 +1,47 @@
+/* .App {
+  text-align: center;
+}
+
+.App-header{
+  font-size: 40px;
+} */
+@import "~react-vis/dist/style";
+
+.App h1{
+  text-align: center;
+}
+
+.App nav{
+  display: flex;
+  justify-content: space-around;
+  background-color:darkmagenta;
+  padding: 10px;
+}
+
+.App a{
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.barCharts{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.MarkSeriesCharts{
+  display: flex;
+  justify-content: space-around;
+}
+
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
